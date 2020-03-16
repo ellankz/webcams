@@ -7,6 +7,10 @@ import WebcamCategories from "./WebcamCategories";
 
 const WebcamsList = props => {
   const category = props.match.params.category;
+  const activeCategory = props.categories[category];
+  const pageTitle = activeCategory
+    ? activeCategory.name
+    : "Webcams all around Ukraine";
   const dispatch = useDispatch();
   useEffect(() => {
     if (category) {
@@ -38,7 +42,7 @@ const WebcamsList = props => {
   };
   return (
     <React.Fragment>
-      <h1>Webcams all around Ukraine</h1>
+      <h1>{pageTitle}</h1>
       <div className="ui grid">
         <div className="ten wide column">
           <div className="ui grid">{renderList()}</div>
@@ -52,7 +56,10 @@ const WebcamsList = props => {
 };
 
 const mapStateToProps = state => {
-  return { webcams: Object.values(state.webcams) };
+  return {
+    webcams: Object.values(state.webcams),
+    categories: state.categories
+  };
 };
 
 export default connect(
