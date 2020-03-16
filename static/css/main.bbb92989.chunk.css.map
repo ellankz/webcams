@@ -1,0 +1,1 @@
+{"version":3,"sources":["WebcamCategories.css","App.css"],"names":[],"mappings":"AAAA,uBACE,cACF,CCFA,UACE,gBACF","file":"main.bbb92989.chunk.css","sourcesContent":[".categories-menu .item {\r\n  cursor: pointer;\r\n}\r\n",".app-wrap {\r\n  padding-top: 20px;\r\n}\r\n"]}

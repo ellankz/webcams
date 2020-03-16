@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/webcams/static/css/main.bbb92989.chunk.css",
+    "main.js": "/webcams/static/js/main.a632bd94.chunk.js",
+    "main.js.map": "/webcams/static/js/main.a632bd94.chunk.js.map",
+    "runtime-main.js": "/webcams/static/js/runtime-main.041146df.js",
+    "runtime-main.js.map": "/webcams/static/js/runtime-main.041146df.js.map",
+    "static/js/2.9f4f5714.chunk.js": "/webcams/static/js/2.9f4f5714.chunk.js",
+    "static/js/2.9f4f5714.chunk.js.map": "/webcams/static/js/2.9f4f5714.chunk.js.map",
+    "index.html": "/webcams/index.html",
+    "precache-manifest.41a2fdceea1c149e8f4794575b567d06.js": "/webcams/precache-manifest.41a2fdceea1c149e8f4794575b567d06.js",
+    "service-worker.js": "/webcams/service-worker.js",
+    "static/css/main.bbb92989.chunk.css.map": "/webcams/static/css/main.bbb92989.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.041146df.js",
+    "static/js/2.9f4f5714.chunk.js",
+    "static/css/main.bbb92989.chunk.css",
+    "static/js/main.a632bd94.chunk.js"
+  ]
+}
