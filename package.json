@@ -1,6 +1,6 @@
 {
   "homepage": "https://ellankz.github.io/webcams",
-  "name": "travel",
+  "name": "webcams",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
